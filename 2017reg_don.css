@@ -2,11 +2,19 @@
 /* cs 8/11/16 */
 
 /*participation options*/
+div#part_type_header_container {
+    text-align: center;
+}
+div#part_type_campaign_banner_container {
+    margin-bottom: 25px;
+}
+div.progress-bar-step-current div.progress-bar-step-number-container {
+    background: #c96b00;
+}
 .registration-page-container {
     max-width: 970px;
     width: 100%;
 }
-
 div#part_type_section_header {
     background: #005a8c;
     color: white;
@@ -15,12 +23,46 @@ span#pt_title_container {
     font-size: 24px;
     font-weight: bold;
 }
-
 div.registration-page-container div.section-sub-header {
     background-color: #c96b00;
     border-top-color: #c96b00;
 }
-
 span#pt_instruction_container {
     color: #fff;
 }
+
+div.part-type-container.selected {
+    border-color: #c96b00;
+}
+
+button#next_step,
+button#previous_step {
+    background: #dedede;
+    font-family: 'Karbon-Semibold', sans-serif;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border-radius: 0;
+    color:white;
+
+}
+button#next_step {
+    background-color: #337f2c;
+}
+button#previous_step {
+    background-color: #c96b00;
+}
+
+
