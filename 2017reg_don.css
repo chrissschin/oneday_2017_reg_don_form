@@ -1,3 +1,26 @@
 /* 2017 br donation and reg forms */
 /* cs 8/11/16 */
 
+/*participation options*/
+.registration-page-container {
+    max-width: 970px;
+    width: 100%;
+}
+
+div#part_type_section_header {
+    background: #005a8c;
+    color: white;
+}
+span#pt_title_container {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+div.registration-page-container div.section-sub-header {
+    background-color: #c96b00;
+    border-top-color: #c96b00;
+}
+
+span#pt_instruction_container {
+    color: #fff;
+}
